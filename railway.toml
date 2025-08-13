@@ -1,0 +1,8 @@
+[build]
+  builder = "Docker"
+
+[deploy]
+  startCommand = "n8n start"
+
+[volumes]
+  data = "/home/node/.n8n"
